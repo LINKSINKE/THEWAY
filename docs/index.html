@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LINKSINKE' The Way</title>
+    <link rel="icon" href="_media/favicon.ico">
+    <meta name="google-site-verification" content="6t0LoIeFksrjF4c9sqUEsVXiQNxLp2hgoqo0KryT-sE" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages">
+    <meta name="description" content="A magical documentation generator.">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" title="vue" >
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css" title="buble" disabled >
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" title="dark" disabled >
+    <!-- <link rel="stylesheet" href="_media/theme-custom.css"> -->
+</head>
+
+<body>
+    <div id="app"></div>
+    <script>
+    window.$docsify = {
+        auto2top: true,
+        coverpage: false,
+        executeScript: true,
+        loadSidebar: true, //
+        loadNavbar: false, // 
+        mergeNavbar: true,
+        responsiveTables: true,
+        maxLevel: 4,
+        subMaxLevel: 2,
+        // maxLevel: 3,
+        // ga: 'UA-106147152-1',
+        // ga: 'UA-XXXXX-Y'
+        name: 'THE WAY', // 顶部左侧的文字，类似LOGO
+        repo: 'https://github.com/LINKSINKE/THEWAY', // 设置git仓库地址
+        
+        // 全文搜索插件参数配置
+        search: {
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            // 支持本地化
+            placeholder: {
+                '/zh-cn/': '输入要查询的关键字',
+                '/': 'Type to search'
+            },
+            // 支持本地化
+            noData: {
+                '/zh-cn/': '换个关键字重新试试咦...',
+                '/': 'No Results'
+            },
+            // 搜索标题的最大层级, 1 - 6
+            depth: 2,
+            hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+            // 避免搜索索引冲突
+            // 同一域下的多个网站之间
+            // namespace: 'website1',
+
+            // 使用不同的索引作为路径前缀（namespaces）
+            // 注意：仅适用于 paths: 'auto' 模式
+            //
+            // 初始化索引时，我们从侧边栏查找第一个路径
+            // 如果它与列表中的前缀匹配，我们将切换到相应的索引
+            // pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+
+            // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
+            // 匹配到的字符串将被用来识别索引
+            // pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+        },
+
+        // 字数统计插件参数配置
+        count: {
+            countable: true,
+            fontsize: '0.9em',
+            color: 'rgb(90,90,90)',
+            language: 'chinese'
+        },
+
+        // 复制代码插件参数配置
+        copyCode: {
+            buttonText: '点击复制',
+            errorText: '错误',
+            successText: '已复制到剪切板'
+        },
+        formatUpdated: '{MM}/{DD} {HH}:{mm}'
+
+    }
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <!-- docsify的文字统计插件 -->
+    <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+    <!-- docsify的分页导航插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <!-- 谷歌统计 - Google Analytics -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+    <!-- 在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <!-- Medium's 风格的图片缩放插件 -->
+    <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script> -->
+    <!-- 正确解析 emoji 字符串的插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+</body>
+
+</html>
