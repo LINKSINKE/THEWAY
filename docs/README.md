@@ -3,6 +3,15 @@
 <small style="float:right;">创建日期：2019/1/23</small>
 人生是一场修行，风风雨雨，走走停停，总要去做些什么......
 
+
+- 在线音乐播放器 - iChen >>> https://music.ichen.cc/
+- 网易云音乐 >>> https://music.163.com/#
+- 蓝调music（手机端） >>> http://lcoc.top/m666/
+- 蓝调music（PC端） >>> http://lcoc.top/666/
+
+----
+
+
 ## 告诫自己
 
 - &lceil;Picture is cheap,show you the code&rfloor;
